@@ -26,6 +26,32 @@ Afterward, we use the Pandas module, which greatly facilitates data analysis. Al
 
 Bugs/Issues: No issues to report.
 
+## Data Cleaning and Analysis of Tweets
+
+InPoDa offers a set of data processing operations, including:
+
+- Identification of the tweet's author
+- Extraction of the tweet's hashtag list
+- Extraction of the users mentioned in the tweet
+- Sentiment analysis of the tweet (the sentiment can be positive or negative). You can use the TextBlob module for this.
+- Identification of the tweet's topics
+  
+InPoDa also provides additional data analysis operations:
+
+- Top K hashtags (K is a user-defined parameter)
+- Top K users
+- Top K mentioned users
+- Top K topics
+- Number of tweets per user
+- Number of tweets per hashtag
+- Number of tweets per topic
+- All tweets from a specific user
+- All tweets mentioning a specific user
+- Users mentioning a specific hashtag
+- Users mentioned by a specific user
+  
+These operations allow for in-depth analysis of tweet data, from sentiment and topic extraction to detailed user and hashtag insights.
+
 ### Future Improvements:
 
 Add the ability to import a new database directly from the graphical interface.
