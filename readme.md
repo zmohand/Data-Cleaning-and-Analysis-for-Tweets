@@ -33,7 +33,7 @@ InPoDa offers a set of data processing operations, including:
 - Identification of the tweet's author
 - Extraction of the tweet's hashtag list
 - Extraction of the users mentioned in the tweet
-- Sentiment analysis of the tweet (the sentiment can be positive or negative). You can use the TextBlob module for this.
+- Sentiment analysis of the tweet (the sentiment can be positive or negative)
 - Identification of the tweet's topics
   
 InPoDa also provides additional data analysis operations:
